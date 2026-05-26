@@ -1,2 +1,2 @@
-# pharmacometrics-datahub
-Pharmacokinetic modeling and simulation
+# PopulationPKModels-datahub
+Pharmacokinetic modeling and simulation - IndiPHARM
