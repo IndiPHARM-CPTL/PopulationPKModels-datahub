@@ -93,13 +93,12 @@ IndiPHARM-CPTL
 
 If you use a model from this repository in research, please cite:
 
-the original publication describing the population PK model; and
+the original publication describing the population PK model; and 
 
 this repository and an associated IndiPHARM publication.
 
 ⚠️ Disclaimer
 
-[!WARNING]
 This repository is intended for academic use only. It is not intended for clinical decision-making.
 
 🧭 Roadmap
@@ -110,6 +109,7 @@ About IndiPHARM-CPTL
 🌐 IndiPHARM 
 https://arpa-h.gov/explore-funding/awards/1701
 https://www.publichealth.columbia.edu/research/centers/center-innovative-exposomics/research/indipharm
+
 🧬 CPTL 
 https://www.pathology.columbia.edu/diagnostic-specialties/laboratory-medicine-division/clinical-pharmacology-and-toxicology-laboratory
 
