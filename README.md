@@ -20,28 +20,9 @@ PopulationPKModels-datahub is a living collection of literature-derived populati
 
 🧠 extend — connect PK models with pharmacodynamics, biomarkers, assays, and patient-level data.
 
-[!NOTE]
-This repository is under active development. Model coverage, documentation, and validation materials are being expanded iteratively.
+🗂️ This repository is under active development. 
 
-🎯 Project vision
-
-Published PopPK models are often scattered across manuscripts, supplements, software formats, and study-specific implementations. Even when a model is technically reproducible, substantial work may be required before it can be reused for a new scientific question.
-
-This repository aims to provide a common bridge between:
-
-Published PopPK model
-        ↓
-Reconstructed executable model
-        ↓
-Standardized simulation workflow
-        ↓
-Exposure + variability summaries
-        ↓
-PK/PD, biomarker, and precision-pharmacology applications
-
-The long-term goal is not simply to archive models, but to develop a reusable model infrastructure for studying treatment variability and model-informed pharmacotherapy.
-
-🗂️ Repository map
+🎯 Repository map
 
 PopulationPKModels-datahub/
 │
@@ -56,73 +37,7 @@ PopulationPKModels-datahub/
 │
 └── 📘 README.md
 
-Additional therapeutic areas and model classes will be incorporated as the data hub expands.
-
-🧩 Standard modeling workflow
-
-Each model is developed through a common workflow whenever the source publication provides sufficient information.
-
-flowchart LR
-    A[Identify published PopPK model] --> B[Extract structural model]
-    B --> C[Extract parameters & covariates]
-    C --> D[Implement executable model]
-    D --> E[Simulate typical subject]
-    E --> F[Simulate population variability]
-    F --> G[Generate PK summaries]
-    G --> H[Compare with published results]
-    H --> I[Extend to PK/PD or precision pharmacology]
-
-1. Literature model identification
-
-A published population PK model is selected based on scientific relevance and reproducibility of the reported model specification.
-
-2. Model reconstruction
-
-The published structural model, fixed effects, interindividual variability, residual error, and covariate relationships are translated into executable code.
-
-3. Typical-subject simulation
-
-A reference patient or representative covariate set is used to generate an interpretable baseline concentration–time profile.
-
-4. Population simulation
-
-When variability parameters are available, virtual populations are generated to characterize expected between-subject variability.
-
-5. Exposure characterization
-
-Common PK outputs 
-
-6. Model Comparison
-
-🛠️ Core computational stack
-
-<div align="center">
-
-Tool
-
-Role
-
-R
-
-Data processing, simulation workflows, visualization
-
-mrgsolve
-
-ODE-based PK model implementation and simulation
-
-dplyr / tidyr
-
-Data transformation
-
-ggplot2
-
-Concentration–time and variability visualization
-
-Git / GitHub
-
-Version control, model provenance, reproducibility
-
-</div>
+🧩 Additional therapeutic areas and model classes will be incorporated as the data hub expands.
 
 🚀 Quick start
 
@@ -210,23 +125,9 @@ Comparison with reported PK behavior
 
 Limitations
 
-Missing information or assumptions introduced during reconstruction
-
-🧪 Therapeutic areas
-
-🍬 Type 2 Diabetes Mellitus
-
-❤️ Hypertension
-
-🩸 Hyperlipidemia
 
 
 A drug-specific README.md should ideally include:
-
-<details>
-<summary><b>Suggested model README sections</b></summary>
-
-<br>
 
 Drug and indication
 
@@ -252,24 +153,10 @@ Reproduction of published results
 
 Known limitations
 
-</details>
 
 📈 Example outputs
 
-🌐 From PopPK to precision pharmacology
-
-The broader scientific framework of the project is:
-
-flowchart TD
-    A[Drug dose] --> B[Population PK]
-    B --> C[Individual exposure]
-    C --> D[Biomarkers / assays]
-    C --> E[Pharmacodynamic response]
-    D --> F[Patient-specific interpretation]
-    E --> F
-    F --> G[Model-informed treatment optimization]
-
-This enables the model library to function as more than a static repository: it can serve as a computational foundation for studying why patients receiving the same therapy may experience different exposures and outcomes.
+🌐 
 
 🤝 Contributing
 
@@ -293,31 +180,16 @@ Useful contributions include:
 
 For substantial additions or model changes, please open an Issue before submitting a pull request.
 
-New-model checklist
+📬 Contact
 
-When contributing a new model, please provide:
+For broader questions regarding the repository, research collaboration, or IndiPHARM-CPTL, please contact:
 
-Original publication citation
+**Merilyn Xie**  
+Postdoctoral Research Scientist  
+Columbia University  
+IndiPHARM-CPTL
 
-Study population
-
-Structural model description
-
-Fixed-effect parameter estimates
-
-Random-effect / residual-error terms
-
-Covariate relationships
-
-Dose and route
-
-Simulation assumptions
-
-Executable implementation
-
-Validation or reproduction notes
-
-Known limitations
+📧 ``
 
 📖 Citation
 
@@ -337,12 +209,6 @@ This repository is intended for academia use only. It is not intended for clinic
 
 
 🧬 About IndiPHARM-CPTL
-
-
-
-
-
-<div align="center">
 
 PopulationPKModels-datahub
 
