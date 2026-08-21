@@ -111,10 +111,13 @@ This repository is intended for academic use only. It is not intended for clinic
 About IndiPHARM-CPTL
 
 🌐 IndiPHARM 
+
 https://arpa-h.gov/explore-funding/awards/1701
+
 https://www.publichealth.columbia.edu/research/centers/center-innovative-exposomics/research/indipharm
 
 🧬 CPTL 
+
 https://www.pathology.columbia.edu/diagnostic-specialties/laboratory-medicine-division/clinical-pharmacology-and-toxicology-laboratory
 
 🧩 IndiPHARM-CPTL / PopulationPKModels-datahub
