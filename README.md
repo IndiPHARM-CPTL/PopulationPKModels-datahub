@@ -6,7 +6,7 @@ Pharmacokinetic modeling and simulation - IndiPHARM
 IndiPHARM-CPTL · Columbia University
 </div>
 
-✨ What is this repository?
+### ✨ What is this repository?
 
 PopulationPKModels-datahub is a living collection of literature-derived population pharmacokinetic (PopPK) models.
 
@@ -22,7 +22,7 @@ PopulationPKModels-datahub is a living collection of literature-derived populati
 
 🗂️ This repository is under active development. 
 
-Repository map - PopulationPKModels-datahub/
+### 🧭 Repository map - PopulationPKModels-datahub/
 
 🩸 Hyperlipidemia
 
@@ -34,27 +34,20 @@ Repository map - PopulationPKModels-datahub/
 
 Additional therapeutic areas and model classes will be incorporated as the data hub expands.
 
-🚀 Quick start
+### 🚀 Quick start
 
-1. Clone the repository
+### 1. Clone the repository
 
 git clone https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub.git
 cd PopulationPKModels-datahub
 
-2. Install common R dependencies
+### 2. Install common R dependencies
 
 install.packages(c(
   "mrgsolve"
 ))
 
 (Individual models may require additional packages.)
-
-3. Navigate to a therapeutic area
-
-💻 Example simulation - direct to SimulationBackbone
-
-📈 Example outputs - direct to SimulationBackbone
-
 
 ### 3. Navigate to a therapeutic area
 
@@ -68,7 +61,7 @@ See the standardized simulation workflow in [`SimulationBackbone`](./SimulationB
 
 Example concentration–time profiles and simulation outputs are available in [`SimulationBackbone`](./SimulationBackbone).
 
-🤝 Contributing
+### 🤝 Contributing
 
 Contributions that improve model accuracy, documentation, validation, or reproducibility are welcome.
 
@@ -90,7 +83,7 @@ Useful contributions include:
 
 For substantial additions or model changes, please open an Issue before submitting a pull request.
 
-📬 Contact
+### 📬 Contact
 
 For broader questions regarding the repository, research collaboration, or IndiPHARM-CPTL, please contact:
 
@@ -101,7 +94,7 @@ IndiPHARM-CPTL
 
 📧 `mhx2000@cumc.columbia.edu`
 
-📖 Citation
+### 📖 Citation
 
 If you use a model from this repository in research, please cite:
 
@@ -113,14 +106,12 @@ If you use a model from this repository in research, please cite:
 Xie MH, Lacroix M, Rodda R, Lyashchenko AK, Cremers S. *PopulationPKModels-datahub: Reproducible population pharmacokinetic models for precision pharmacology*. IndiPHARM-CPTL; 2026. GitHub repository.
 ```
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This repository is intended for academic use only. It is not intended for clinical decision-making.
 
-🧭 Roadmap
 
-
-About IndiPHARM-CPTL
+### About IndiPHARM-CPTL
 
 🌐 IndiPHARM 
 
