@@ -100,9 +100,6 @@ If you use a model from this repository in research, please cite:
 ## 
 Xie MH, Lacroix M, Rodda R, Lyashchenko AK, Cremers S. *PopulationPKModels-datahub: Reproducible population pharmacokinetic models for precision pharmacology*. IndiPHARM-CPTL; 2026. GitHub repository.
 
-> [!NOTE]
-> If you use a model from this repository, please cite both the original
-> PopPK publication and this repository.
 
 ⚠️ Disclaimer
 
