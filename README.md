@@ -22,15 +22,15 @@ PopulationPKModels-datahub is a living collection of literature-derived populati
 
 🗂️ This repository is under active development. 
 
-
-
-🎯 Repository map - PopulationPKModels-datahub/
+Repository map - PopulationPKModels-datahub/
 
 🩸 Hyperlipidemia
 
 ❤️ Hypertension
 
 🍬 T2DM
+
+🎯 Immunosuppressants
 
 Additional therapeutic areas and model classes will be incorporated as the data hub expands.
 
@@ -55,6 +55,18 @@ install.packages(c(
 
 📈 Example outputs - direct to SimulationBackbone
 
+
+### 3. Navigate to a therapeutic area
+
+Browse available therapeutic-area models in the repository.
+
+### 💻 Example simulation
+
+See the standardized simulation workflow in [`SimulationBackbone`](./SimulationBackbone).
+
+### 📈 Example outputs
+
+Example concentration–time profiles and simulation outputs are available in [`SimulationBackbone`](./SimulationBackbone).
 
 🤝 Contributing
 
