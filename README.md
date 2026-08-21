@@ -10,32 +10,26 @@ IndiPHARM-CPTL · Columbia University
 
 PopulationPKModels-datahub is a living collection of literature-derived population pharmacokinetic (PopPK) models.
 
-🔎 review — examine the structural model, parameters, and covariates;
+🔎 Review — examine the structural model, parameters, and covariates;
 
-♻️ reproduce — rebuild concentration–time profiles from published model;
+♻️ Modeling — rebuild concentration–time profiles from published model;
 
-🧪 simulate — generate single-patient and population-level PK profiles across dosing regimens;
+🧪 Simulation — generate single-patient and population-level PK profiles across dosing regimens;
 
-📊 compare — evaluate exposure and variability across drugs and therapeutic classes;
+📊 Comparison — evaluate exposure and variability across drugs and therapeutic classes;
 
-🧠 extend — connect PK models with pharmacodynamics, biomarkers, assays, and patient-level data.
+🧠 Extension — connect PK models with pharmacodynamics, biomarkers, assays, and patient-level data.
 
 🗂️ This repository is under active development. 
 
-🎯 Repository map
 
-PopulationPKModels-datahub/
-│
-├── 🩸 Hyperlipidemia/
-│   └── literature-derived lipid-lowering drug models
-│
-├── ❤️ Hypertension/
-│   └── antihypertensive and cardiovascular drug models
-│
-├── 🍬 T2DM/
-│   └── non-insulin antihyperglycemic drug models
-│
-└── 📘 README.md
+
+🎯 Repository map - PopulationPKModels-datahub/
+🩸 Hyperlipidemia
+
+❤️ Hypertension
+
+🍬 T2DM
 
 🧩 Additional therapeutic areas and model classes will be incorporated as the data hub expands.
 
@@ -52,7 +46,7 @@ install.packages(c(
   "mrgsolve"
 ))
 
-Individual models may require additional packages.
+(Individual models may require additional packages.)
 
 3. Navigate to a therapeutic area
 
@@ -189,7 +183,7 @@ Postdoctoral Research Scientist
 Columbia University  
 IndiPHARM-CPTL
 
-📧 ``
+📧 `mhx2000@cumc.columbia.edu`
 
 📖 Citation
 
@@ -199,7 +193,7 @@ the original publication describing the population PK model; and
 
 this repository and an associated IndiPHARM publication.
 
-⚠️ Intended use and disclaimer
+⚠️ Disclaimer
 
 [!WARNING]
 This repository is intended for academia use only. It is not intended for clinical decision-making.
@@ -210,10 +204,7 @@ This repository is intended for academia use only. It is not intended for clinic
 
 🧬 About IndiPHARM-CPTL
 
-PopulationPKModels-datahub
-
-From published models → reproducible simulations → precision pharmacology
-
+IndiPHARM https://arpa-h.gov/explore-funding/awards/1701
+https://www.publichealth.columbia.edu/research/centers/center-innovative-exposomics/research/indipharm
+CPTL https://www.pathology.columbia.edu/diagnostic-specialties/laboratory-medicine-division/clinical-pharmacology-and-toxicology-laboratory
 IndiPHARM-CPTL / PopulationPKModels-datahub
-
-</div>
