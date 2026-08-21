@@ -1,1 +1,99 @@
+💻 Example simulation
 
+A simplified mrgsolve workflow may look like:
+
+library(mrgsolve)
+library(dplyr)
+library(ggplot2)
+
+mod <- mread(
+  "model_name",
+  "path/to/model"
+)
+
+dose <- ev(
+  time = 0,
+  amt  = 10,
+  cmt  = 1
+)
+
+sim <- mod |>
+  ev(dose) |>
+  mrgsim(
+    end   = 48,
+    delta = 0.1
+  ) |>
+  as_tibble()
+
+ggplot(sim, aes(time, CP)) +
+  geom_line() +
+  labs(
+    x = "Time",
+    y = "Concentration",
+    title = "Simulated concentration–time profile"
+  )
+
+📋 Model documentation 
+
+Field
+
+Drug
+
+Therapeutic area
+
+Disease or indication
+
+Primary PopPK publication
+
+Study population
+
+Structural model
+
+Parameter estimates
+
+Fixed effects
+
+Random effects
+
+IIV and RSC
+
+Covariates (Weight, renal function, genotype, disease state, etc.)
+
+Dosing regimen (Route, amount, dose interval)
+
+Simulation and reference settings
+
+Comparison with reported PK behavior
+
+Limitations
+
+
+
+A drug-specific README.md should ideally include:
+
+Drug and indication
+
+Source publication
+
+Study population
+
+Structural PK model
+
+Fixed-effect parameters
+
+Interindividual variability
+
+Residual error model
+
+Covariate relationships
+
+Dosing regimen
+
+Simulation assumptions
+
+Reproduction of published results
+
+Known limitations
+
+
+📈 Example outputs
