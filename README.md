@@ -24,6 +24,8 @@ PopulationPKModels-datahub is a living collection of literature-derived populati
 
 ### 🧭 Repository map - PopulationPKModels-datahub/
 
+Additional therapeutic areas and model classes will be incorporated as the data hub expands.
+
 🩸 Hyperlipidemia
 
 ❤️ Hypertension
@@ -31,8 +33,6 @@ PopulationPKModels-datahub is a living collection of literature-derived populati
 🍬 T2DM
 
 🎯 Immunosuppressants
-
-Additional therapeutic areas and model classes will be incorporated as the data hub expands.
 
 ### 🚀 Quick start
 
