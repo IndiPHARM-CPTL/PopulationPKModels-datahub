@@ -71,26 +71,25 @@ Useful contributions include:
 
 ➕ adding a published PopPK model;
 
-🧮 correcting equations or parameterization;
+🧮 correcting equations/ODE;
 
 📝 improving documentation;
 
-📚 adding missing literature provenance;
+📚 adding missing literature;
 
 📊 adding validation figures;
 
-🧪 testing alternative simulation scenarios;
+🧪 testing patient-specific simulation scenarios;
 
 🐛 reporting implementation errors.
 
-For substantial additions or model changes, please open an Issue before submitting a pull request.
+For additions or model changes, please open an ISSUE before submitting a PULL REQUEST.
 
 ### 📬 Contact
 
 For broader questions regarding the repository, research collaboration, or IndiPHARM-CPTL, please contact:
 
 **Merilyn Xie**  
-Postdoctoral Research Scientist  
 Columbia University  
 IndiPHARM-CPTL
 
