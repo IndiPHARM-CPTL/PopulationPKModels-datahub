@@ -45,9 +45,9 @@ cd PopulationPKModels-datahub
 
 ### 2. Install common R dependencies
 
-install.packages(c(
-  "mrgsolve"
-))
+install.packages(c(  "mrgsolve"))
+
+https://mrgsolve.org/
 
 (Individual models may require additional packages.)
 
