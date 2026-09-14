@@ -159,8 +159,7 @@ If you use models or data from this repository in academic work, please cite the
 **Serge Cremers**
 
 Columbia University Irving Medical Center  
-Clinical Pharmacology and Therapeutics Laboratory
-
+Clinical Pharmacology and Toxicology Laboratory
 ---
 
 ## Disclaimer
