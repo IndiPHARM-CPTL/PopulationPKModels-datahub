@@ -85,29 +85,27 @@ Virtual-population simulations incorporating reported interindividual variabilit
 Repeated-dose simulation to characterize accumulation and steady-state exposure.
 
 ### Exposure summaries
-Common pharmacokinetic endpoints include:
+PopPK models could derive the following common PK endpoints include:
 
 | Metric | Description |
 |---|---|
 | **Cmax** | Maximum plasma concentration |
 | **Tmax** | Time to maximum plasma concentration |
 | **Ctrough** | Concentration immediately before the subsequent dose |
-| **AUC** | Area under the concentration-time curve |
+| **AUC** | Area under the curve |
 
 ---
 
 ## Supporting Drug Information
 
-Additional files within this directory summarize drug-level characteristics relevant to pharmacokinetic modeling and interpretation, including information related to:
+Additional files summarize drug-specific characteristics.
 
-- Drug-metabolizing enzymes
-- Transporters
-- Active or clinically relevant metabolites
-- Renal elimination
-- Hepatic metabolism
-- Pharmacokinetic drug characteristics
+### Drug-level reference tables
 
-These resources are intended to complement the individual model implementations and facilitate cross-drug comparison.
+- **[Drug List 1 – Enzymes and Transporters](./Drug%20list%201%20-%20enzymes%2C%20transporters.xlsx)**  
+
+- **[Drug List 2 – Metabolites and Renal/Hepatic Elimination](./Drug%20list%202%20-%20metabolites%20and%20renal%20elimination.xlsx)**
+
 
 ---
 
@@ -117,19 +115,18 @@ This repository is designed as a **research and pharmacometric resource** for:
 
 - Population pharmacokinetic model reconstruction
 - Model comparison
-- Pharmacokinetic simulation
-- Exposure assessment
-- Model-informed precision dosing research
-- Therapeutic drug monitoring research
-- Comparative pharmacology across T2DM therapies
+- Pharmacokinetic modeling and simulation
+- Drug Exposure assessment
+- Model-informed precision dosing related research
+- Therapeutic drug monitoring and PK/PD related research
 
-The repository is intended for **research and educational purposes** and should not be used as a substitute for approved prescribing information or independent clinical judgment.
+The repository is intended for **research and educational purposes** and should not be used as prescribing information or independent clinical decision-making.
 
 ---
 
 ## Contributing
 
-Contributions that improve model reproducibility, documentation, or coverage are welcome.
+Contributions and comments that could improve our models are welcome.
 
 Examples include:
 
@@ -137,10 +134,7 @@ Examples include:
 - Corrections to reconstructed model parameters
 - Additional validation datasets
 - Improved model documentation
-- Additional simulation scenarios
 - Updated pharmacokinetic literature
-
-Please provide the original publication or source whenever proposing changes to a model.
 
 ---
 
@@ -152,7 +146,7 @@ If you use models or data from this repository in academic work, please cite the
 
 ## Authors
 
-**Merilyn H. Xie**  
+**Merilyn H. Xie**   (mhx2000@cumc.columbia.edu)
 **Mathilde Lacroix**  
 **Ramesh Rodda**  
 **Alex K. Lyashchenko**  
@@ -160,11 +154,9 @@ If you use models or data from this repository in academic work, please cite the
 
 Columbia University Irving Medical Center  
 Clinical Pharmacology and Toxicology Laboratory
-
+CPTL@cumc.columbia.edu
 ---
 
 ## Disclaimer
 
-The models contained in this repository are reconstructions of published pharmacokinetic models and are provided for research purposes. Model performance may depend on the population, assay, formulation, dosing regimen, covariates, and assumptions of the original study.
-
-Clinical decisions should not be based solely on simulations generated from this repository.
+The models in this repository are reconstructions of published pharmacokinetic models and are provided for research purposes only. 
