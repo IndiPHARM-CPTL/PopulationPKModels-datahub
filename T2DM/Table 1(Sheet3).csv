@@ -1,0 +1,155 @@
+Generic name ,Metabolites ,Chemical Reactions / Enzymes 
+Empagliflozin ,"3-O-glucuronide inactive 
+2-O-glucuronide inactive 
+6-O-glucuronide inactive 
+No major active metabolites ","Phase II glucuronidation via UGT2B7, UGT1A3, UGT1A8, UGT1A9. 
+Minimal CYP450 involvement.  "
+,,"~55% excreted in urine, ~41% in feces. "
+Dapagliflozin ,"Dapagliflozin 3-O-glucuronide (D3OG) inactive — primary metabolite 
+D3OG is the predominant circulating metabolite; pharmacologically inactive ",Phase II glucuronidation primarily  
+,,"via UGT1A9 (liver and kidney); 
+CYP450 minimally involved.  "
+,,~75% excreted in urine (mainly as D3OG). 
+Canagliflozin ,"M7 (O-glucuronide) inactive — major metabolite 
+M5 (O-glucuronide) inactive — minor metabolite ",Phase II glucuronidation  
+,,"via UGT1A9 (? M7) and UGT2B4 (? M5). 
+Minimal CYP3A4 involvement.  "
+,,"~60% fecal, ~33% urinary elimination. "
+Ertugliflozin ,"Two O-glucuronide conjugates inactive 
+Metabolites pharmacologically inactive at clinically relevant concentrations ","Phase II glucuronidation via UGT1A9 and UGT2B7 (primary). 
+Minor CYP3A4/3A5, CYP2C8 contributions.  "
+,,"~41% urine, ~50% feces. "
+Bexagliflozin ,"Glucuronide conjugates inactive 
+Minimal systemic metabolites; largely excreted as parent drug or glucuronides ","Phase II glucuronidation via UGT1A9 and UGT2B7. 
+Minimal CYP involvement.  "
+,,Predominantly biliary/fecal excretion. 
+Exenatide (IR) ,"Small peptide fragments inactive 
+No discrete named metabolites; proteolytic degradation products ","Predominantly eliminated by glomerular filtration followed by proteolytic degradation in renal tubules. 
+Not metabolized by CYP enzymes.  "
+Exenatide (ER) ,Same small peptide fragments as IR inactive ,Identical systemic elimination to IR  
+,,"after release from PLGA microspheres. 
+Glomerular filtration ? proteolytic degradation.  "
+Dulaglutide (SQ) ,"Amino acid components inactive 
+Large IgG4 Fc fusion peptide; endogenous proteins catabolism ","Proteolytic catabolism via general protein degradation pathways (not CYP-dependent). 
+Minimal renal clearance due to large MW (~60 kDa). "
+Liraglutide (SQ) ,"Peptide fragments inactive 
+No organ-specific route of elimination; endogenous protein catabolism ","Proteolysis similar to large proteins; albumin-bound (?98%) via C-18 fatty acid chain. 
+Not significantly cleared by kidney or liver as intact molecule. "
+Semaglutide (SQ) ,Peptide fragments inactive ,"Proteolytic cleavage of peptide backbone + ?-oxidation of C-18 fatty diacid moiety + amide hydrolysis. 
+No intact semaglutide in urine/feces.  "
+Semaglutide (oral) ,Same peptide fragments as SQ formulation ,"Same systemic catabolism as SQ; co-formulated with SNAC (absorption enhancer) which facilitates gastric absorption. 
+SNAC: rapid hydrolysis.  "
+,,Semaglutide: proteolysis + ?-oxidation. 
+Tirzepatide (SQ) ,"Peptide fragments, ?-oxidation products inactive 
+Dual GIP/GLP-1 agonist; no intact drug in urine or feces ","Proteolytic cleavage of peptide backbone + ?-oxidation of C20 fatty diacid moiety + amide hydrolysis. 
+Low potential to inhibit/induce CYP enzymes.  "
+Lixisenatide (SQ) ,Small peptide fragments inactive ,Eliminated by glomerular filtration followed by proteolytic degradation in renal tubules. 
+Metformin ,"No significant metabolites — excreted unchanged 
+Not metabolized in the liver; 90% excreted unchanged in urine within 24 h ","Not metabolized by CYP or other hepatic enzymes. 
+Eliminated exclusively by renal tubular secretion (OCT2 transporter) as unchanged drug. 
+No Phase I or Phase II biotransformation. "
+Sitagliptin ,"Minor metabolites (M1, M2, M5, M6) inactive 
+>79% excreted unchanged in urine; metabolites represent minor fractions ","Primarily excreted unchanged renally (via OAT3/P-gp). 
+Minor hepatic oxidative metabolism by CYP3A4 (minor) and CYP2C8. 
+Does not induce or inhibit CYP enzymes. Dose reduction needed in renal impairment. "
+Linagliptin ,"CD1790 (pharmacologically inactive) inactive 
+~90% excreted unchanged; minimally metabolized; CD1790 is a minor metabolite ","Minimally metabolized; primarily excreted unchanged via bile/feces (~80%) and urine (~5%). 
+Weak substrate of CYP3A4 and P-gp; no clinically meaningful CYP interactions. 
+No dose adjustment needed for renal/hepatic impairment. "
+Saxagliptin ,"5-hydroxy saxagliptin active (50% potency) — primary metabolite 
+5-OH saxagliptin is an active DPP-4 inhibitor with ~50% the potency of parent; both contribute to efficacy ","Phase I hydroxylation by CYP3A4/CYP3A5 ? 5-hydroxy saxagliptin. 
+Strong CYP3A4 inhibitors (e.g., ketoconazole) significantly increase saxagliptin exposure ? dose reduce to 2.5 mg. 
+~60% renal, ~22% fecal elimination. "
+Alogliptin ,"N-demethyl alogliptin (M-I) active (similar potency) — minor 
+N-acetyl alogliptin (M-II) inactive — minor 
+60–71% excreted unchanged in urine; minor metabolites M-I and M-II <1% each ","Minimally metabolized; primarily excreted unchanged renally (~76%). 
+Minor N-demethylation (? M-I) and N-acetylation (? M-II). 
+No significant CYP induction/inhibition. Dose adjustment needed in renal impairment. "
+Vildagliptin ,"LAY151 (hydrolysis product of cyano group) inactive — major metabolite (~57%) 
+Amide hydrolysis products inactive — minor 
+Glucuronide conjugates inactive — minor ","Primary route: hydrolysis of the cyano group (non-CYP, by multiple tissues including kidney/DPP-4 enzyme itself) ? LAY151. 
+Also undergoes amide bond hydrolysis and glucuronidation. 
+CYP enzymes contribute <1.6% to metabolism. ~55% urine, ~22% feces (as LAY151 and conjugates). "
+Glimepiride ,"M1 (cyclohexyl hydroxymethyl derivative) weakly active (~1/3 potency) 
+M2 (cyclohexyl carboxyl derivative) inactive ","Phase I oxidative biotransformation via CYP2C9 ? M1 (hydroxylation). 
+Further oxidation of M1 ? M2 (inactive carboxyl derivative). 
+Completely hepatic; ~60% urine, ~40% feces as M1 and M2. "
+Glyburide ,"4-trans-hydroxycyclohexyl metabolite (M1) weakly active 
+3-cis-hydroxycyclohexyl metabolite (M2) inactive 
+Additional hydroxylated metabolites (M2b, M3, M4) inactive ","Phase I hydroxylation via CYP3A4 (dominant), CYP2C9, CYP2C8. 
+All metabolites cleared renally and in bile. ~50% urine, ~50% feces. "
+Glipizide ,"Hydroxylated aromatic metabolites inactive 
+Polar metabolites (carboxylic acid derivatives) inactive 
+~90% metabolized; metabolites are pharmacologically inactive ","Phase I aromatic hydroxylation via CYP2C9. 
+~90% metabolized in liver; ~80% urinary excretion of metabolites, <10% unchanged drug. "
+Gliclazide ,"Oxidized and hydroxylated metabolites inactive 
+~60–70% metabolized; no active metabolites identified in plasma ","Phase I oxidation/hydroxylation via CYP2C9 (primary). 
+~60–70% excreted in urine as metabolites; <1% unchanged in urine. "
+Tolbutamide ,"4-hydroxytolbutamide inactive 
+Carboxytolbutamide inactive ","Phase I para-methyl hydroxylation via CYP2C9 ? 4-hydroxytolbutamide. 
+Further oxidation ? carboxytolbutamide. 
+Classic CYP2C9 probe substrate. ~100% hepatic metabolism; renal excretion of metabolites. "
+Tolazamide ,"p-carboxy tolazamide inactive 
+Hydroxy-methyl tolazamide weakly active 
+Hexahydroazepine derivatives inactive ","Phase I hepatic oxidation via CYP2C9. 
+Multiple metabolites; ~85% excreted in urine as metabolites. Slower metabolism than tolbutamide. "
+Chlorpropamide ,"p-chlorohydroxy propyl metabolite inactive 
+2-hydroxychlorpropamide inactive 
+~80% excreted unchanged in urine — minimal hepatic metabolism compared to other SUs ","Minimal Phase I hydroxylation via CYP2C9 (less than other SUs). 
+Primarily excreted unchanged in urine (~80%). Very long t½ (~36 h). 
+Also inhibits renal tubular secretion (SIADH mechanism). "
+Pioglitazone ,"M-II (hydroxy-pioglitazone) active 
+M-III (keto-pioglitazone) active 
+M-IV (hydroxy-keto-pioglitazone) active — most potent 
+M-III and M-IV (active) account for ~50% of total pharmacological activity at steady state ","Phase I hydroxylation and oxidation via CYP2C8 (dominant) and CYP3A4. 
+Active metabolites have similar or greater PPAR? activity. Excreted primarily in bile/feces (~55%). "
+Rosiglitazone ,"para-hydroxy rosiglitazone (sulfate conjugate) inactive/minor 
+N-desmethyl rosiglitazone inactive 
+Metabolites are pharmacologically weak or inactive at clinical concentrations ","Phase I N-demethylation and hydroxylation via CYP2C8 (primary) and CYP2C9 (minor). 
+Phase II sulfate and glucuronide conjugation of hydroxylated metabolites. 
+~64% urinary, ~23% fecal excretion. "
+Nateglinide ,"Isoprene metabolite (M1) weakly active — minor 
+Hydroxylated metabolites inactive — major 
+Glucuronide conjugates inactive 
+Parent drug and isoprene metabolite (M1) show anti-hyperglycemic activity; hydroxy metabolites - inactive ",Phase I hydroxylation 
+,," via CYP2C9 (~70%) and CYP3A4 (~30%). 
+Phase II glucuronidation of hydroxylated metabolites. 
+Substrate of OATP1B1 transporter. "
+Repaglinide ,"M1 (aromatic amine) inactive 
+M2 (dicarboxylic acid) inactive — major 
+M7 (acyl glucuronide) inactive 
+All metabolites pharmacologically inactive ","Phase I oxidative dealkylation and aromatic hydroxylation via CYP2C8 (primary) and CYP3A4. 
+Phase II acyl glucuronidation ? M7. 
+Substrate of OATP1B1 transporter (hepatic uptake). "
+Miglitol ,"No significant metabolites — excreted unchanged 
+Completely absorbed and excreted unchanged in urine; no hepatic metabolism ","Not metabolized in humans. 
+Absorbed from small intestine;  "
+,,"Excreted unchanged in urine. 
+Acts locally in the GI tract by reversible inhibition of intestinal ?-glucosidases. "
+Acarbose ,"Intestinal degradation products (GI bacteria/digestive enzymes) are inactive 
+Active component (1-desoxy-1-(2-hydroxyethyl) amino-D-glucitol) — <2% systemic absorption 
+Primarily acts intraluminally; <2% of parent drug absorbed systemically ","Primarily degraded in GI tract by intestinal bacteria and intestinal enzymes. 
+<2% absorbed => excreted unchanged in urine. 
+Reversible competitive inhibition of intestinal brush-border ?-glucosidases. "
+Bromocriptine ,"Extensive hepatic metabolites (bromocriptine is largely a prodrug in kinetic terms) 
+2-bromo-?-ergocryptine derivatives - inactive 
+Almost completely metabolized; <6% bioavailability due to extensive first-pass effect ",Extensive Phase I  
+,,"oxidation and hydrolysis via CYP3A4 (primary). 
+Strong substrate of CYP3A4;  "
+,,"high first-pass hepatic extraction. 
+Eliminated primarily in bile/feces.  "
+,,CYP3A4 inhibitors significantly increase exposure. 
+Colesevelam ,Not absorbed or metabolized — acts in GI lumen ,"No systemic absorption or metabolism. 
+Non-absorbed, hydrophilic, cross-linked polymer that sequesters bile acids in the intestinal lumen via ionic binding. 
+Excreted entirely in feces as drug–bile acid complex. No CYP interactions. "
+Cholestyramine ,Not absorbed — acts in GI tract ,"Not absorbed or metabolized. 
+Anion-exchange resin; binds bile acids by ionic exchange in intestinal lumen, interrupting enterohepatic circulation. 
+Excreted in feces as resin–bile acid complex. May bind other drugs (take others 1–4 h before). "
+Colestimide ,Not absorbed or metabolized ,"Not absorbed or metabolized. 
+Anion-exchange resin (used primarily in Japan); bile acid sequestrant via ionic binding in GI lumen. 
+Fecal excretion as drug–bile acid complex. "
+Colestipol ,Not absorbed or metabolized ,"Not absorbed or metabolized. 
+High-molecular-weight anion-exchange resin;  "
+,,"sequesters bile acids by ionic exchange. 
+Fecal elimination;  "
+,,May reduce absorption of co-administered oral medications. 
