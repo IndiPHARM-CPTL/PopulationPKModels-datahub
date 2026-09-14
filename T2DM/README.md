@@ -146,8 +146,7 @@ If you use models or data from this repository in academic work, please cite the
 
 ## Authors
 
-**Merilyn H. Xie**   (mhx2000@cumc.columbia.edu)
-
+**Merilyn H. Xie  (mhx2000@cumc.columbia.edu)**  
 **Mathilde Lacroix**  
 **Ramesh Rodda**  
 **Alex K. Lyashchenko**  
