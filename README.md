@@ -88,7 +88,7 @@ If you use a model from this repository in research, please cite:
 2. this repository.
 
 ```
-Xie MH, Lacroix M, Rodda R, Lyashchenko AK, Cremers S. *PopulationPKModels-datahub: Reproducible population pharmacokinetic models for precision pharmacology*. IndiPHARM-CPTL; 2026. GitHub repository.
+Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026). PopulationPKModels-datahub (IndiPHARM) (Version 0.1.0) [Computer software]. https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub
 ```
 
 ### ⚠️ Disclaimer
