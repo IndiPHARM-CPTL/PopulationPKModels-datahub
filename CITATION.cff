@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this repository or its pharmacokinetic models, please cite this software and the original publications associated with the individual models."
+
+title: "PopulationPKModels-datahub: A Population Pharmacokinetic Model Repository for Precision Therapeutics"
+
+type: software
+
+authors:
+  - family-names: Xie
+    given-names: Merilyn H.
+
+  - family-names: Lacroix
+    given-names: Mathilde
+
+  - family-names: Rodda
+    given-names: Ramesh
+
+  - family-names: Lyashchenko
+    given-names: Alex K.
+
+  - family-names: Cremers
+    given-names: Serge
+
+affiliation: "Columbia University Irving Medical Center"
+
+version: 1.0.0
+
+keywords:
+  - population pharmacokinetics
+  - pharmacometrics
+  - therapeutic drug monitoring
+  - precision medicine
+  - mrgsolve
+  - pharmacokinetics
+
+license: MIT
+
+Tag: v1.0.0
+
+Release title:
+PopulationPKModels-datahub v1.0.0
+
+Description:
+Initial public release of the PopulationPKModels-datahub, a curated and reconstructed population pharmacokinetic model repository supporting pharmacometric simulation and model-informed precision therapeutics.
+Research reported in this repository was supported by the Advanced Research Projects Agency for Health (ARPA-H) under award number D24AC00345-00.  ARPA-H provided 100% of the total costs with an award total of up to $18,474,445. The content is solely the responsibility of the authors and does not necessarily represent the official views of the Advanced Research Projects Agency for Health. 
