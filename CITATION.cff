@@ -13,7 +13,6 @@ authors:
   - family-names: Xie
     given-names: Merilyn H.
     affiliation: Columbia University Irving Medical Center
-    email: mhx2000@cumc.columbia.edu
 
   - family-names: Lacroix
     given-names: Mathilde
@@ -28,8 +27,9 @@ authors:
     given-names: Serge
 
 version: 0.1.0
-
 date-released: 2026-09-14
+
+doi: "10.5281/zenodo.22757463"
 
 repository-code: "https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub"
 
