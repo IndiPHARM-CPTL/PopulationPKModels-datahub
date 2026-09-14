@@ -152,9 +152,9 @@ If you use models or data from this repository in academic work, please cite the
 **Alex K. Lyashchenko**  
 **Serge Cremers**
 
-Columbia University Irving Medical Center  
-Clinical Pharmacology and Toxicology Laboratory
-CPTL@cumc.columbia.edu
+**Clinical Pharmacology and Toxicology Laboratory (CPTL@cumc.columbia.edu)**
+**Columbia University Irving Medical Center**  
+
 ---
 
 ## Disclaimer
