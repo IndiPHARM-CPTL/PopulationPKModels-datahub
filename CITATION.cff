@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 
 message: >
-  If you use this repository or its pharmacokinetic models,
+  If you use this repository,
   please cite this software and the original publications
   associated with the individual models.
 
@@ -16,15 +16,19 @@ authors:
 
   - family-names: Lacroix
     given-names: Mathilde
+    affiliation: Columbia University Irving Medical Center
 
   - family-names: Rodda
     given-names: Ramesh
+    affiliation: Columbia University Irving Medical Center
 
   - family-names: Lyashchenko
     given-names: Alex K.
+    affiliation: Columbia University Irving Medical Center
 
   - family-names: Cremers
     given-names: Serge
+    affiliation: Columbia University Irving Medical Center
 
 version: 0.1.0
 date-released: 2026-09-14
