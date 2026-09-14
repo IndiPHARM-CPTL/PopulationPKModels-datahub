@@ -65,23 +65,7 @@ Example concentration–time profiles and simulation outputs are available in [`
 
 ### 🤝 Contributing
 
-Contributions that improve model accuracy, documentation, validation, or reproducibility are welcome.
-
-Useful contributions include:
-
-➕ adding a published PopPK model;
-
-🧮 correcting equations/ODE;
-
-📝 improving documentation;
-
-📚 adding missing literature;
-
-📊 adding validation figures;
-
-🧪 testing patient-specific simulation scenarios;
-
-🐛 reporting implementation errors.
+Contributions, or comments that improve model database are welcome.
 
 For additions or model changes, please open an ISSUE before submitting a PULL REQUEST.
 
@@ -93,7 +77,7 @@ For broader questions regarding the repository, research collaboration, or IndiP
 Columbia University  
 IndiPHARM-CPTL
 
-📧 `mhx2000@cumc.columbia.edu`
+📧 Merilyn Xie `mhx2000@cumc.columbia.edu`, or CPTL `CPTL@cumc.columbia.edu`
 
 ### 📖 Citation
 
