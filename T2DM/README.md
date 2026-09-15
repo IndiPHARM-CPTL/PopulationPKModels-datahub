@@ -31,7 +31,7 @@ The models are organized by therapeutic class and are intended to support the re
 
 Each therapeutic-class directory contains drug-specific modeling resources derived from published pharmacokinetic literature.
 
-Depending on the availability of published models and source data, individual drug folders may contain:
+Depending on the availability of published models and source data, individual drug file may contain:
 
 - Published PopPK, PK/PD, or related pharmacometric model implementations
 - Model parameterization and covariate information
@@ -39,12 +39,10 @@ Depending on the availability of published models and source data, individual dr
 - Typical population simulations
 - Variability simulations
 - Exposure metrics such as:
-  - AUC
   - Cmax
   - Tmax
   - Ctrough
 - Supporting references and model documentation
-- Figures and tabulated simulation outputs
 
 The structure of individual drug folders may vary depending on the complexity of the published model and the availability of sufficient information for model reconstruction.
 
