@@ -8,20 +8,24 @@
 
 Metformin was a first-line antihyperglycemic drug for T2DM. It primarily reduces hepatic glucose production and improves insulin sensitivity. Metformin is not metabolized and is predominantly excreted unchanged in the urine. Its PK is primarily influenced by renal function, body weight, and genetic factors of drug transporters.
 
-## Drug Classes
+## **Published PopPK/PD Models**
 
-| PK model | Patient Population | Directory |
+| PK Model | Patient Population | Directory |
 |---|---|---|
-| **α-Glucosidase Inhibitors** | Acarbose, miglitol, voglibose | [Alpha-Glucosidase Inhibitors](./Alpha-Glucosidase%20Inhibitors/) |
-| **Biguanides** | Metformin | [Biguanide](./Biguanide/) |
-| **Bile Acid Sequestrants** | Colesevelam | [Bile Acid Sequestrants](./Bile%20Acid%20Sequestrants/) |
-| **DPP-4 Inhibitors** | Sitagliptin, saxagliptin, linagliptin, alogliptin | [DPP4 inhibitors](./DPP4%20inhibitors/) |
-| **Dopamine-2 Agonists** | Bromocriptine | [Dopamine-2 Agonist](./Dopamine-2%20Agonist/) |
-| **GLP-1 Receptor Agonists** | Semaglutide, liraglutide, dulaglutide, exenatide | [GLP1](./GLP1/) |
-| **Meglitinides** | Repaglinide, nateglinide | [Meglitinide](./Meglitinide/) |
-| **SGLT2 Inhibitors** | Empagliflozin, dapagliflozin, canagliflozin, ertugliflozin | [SGLT2 inhibitors](./SGLT2%20inhibitors/) |
-| **Sulfonylureas** | Glimepiride, glipizide, glyburide | [Sulfonylureas](./Sulfonylureas/) |
-| **Thiazolidinediones** | Pioglitazone, rosiglitazone | [Thiazolidinediones](./Thiazolidinediones/) |
+| **Nikolaidis et al.** | Healthy men undergoing high-intensity interval exercise | [Nikolaidis](./Nikolaidis/) |
+| **Sam et al.** | Pediatric patients with obesity and insulin resistance | [Sam](./Sam/) |
+| **Goswami et al.** | Patients with T2DM; pharmacogenomic variability | [Goswami](./Goswami/) |
+| **Hong et al.** | Patients with T2DM | [Hong](./Hong/) |
+| **Duong et al.** | Healthy subjects and patients with T2DM | [Duong](./Duong/) |
+| **Charles et al.** | Pregnant women | [Charles](./Charles/) |
+| **Bardin et al.** | Patients with T2DM with and without obesity | [Bardin](./Bardin/) |
+| **Chae et al.** | Healthy subjects; PK/PD signal transduction modeling | [Chae](./Chae/) |
+| **Timmins et al.** | Extended-release metformin formulation | [Timmins](./Timmins/) |
+| **Sinnappah et al.** | Patients receiving intermittent hemodialysis | [Sinnappah](./Sinnappah/) |
+| **Yoon et al.** | Healthy volunteers; pharmacogenomic variability | [Yoon](./Yoon/) |
+| **Chitnis et al.** | Healthy volunteers | [Chitnis](./Chitnis/) |
+| **Choi et al.** | Healthy Korean volunteers | [Choi](./Choi/) |
+| **Ling et al.** | Chinese patients with T2DM | [Ling](./Ling/) |
 
 
 
