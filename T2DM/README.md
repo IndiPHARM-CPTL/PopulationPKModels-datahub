@@ -59,16 +59,8 @@ Multiple ascending dose simulation to characterize accumulation and steady-state
 |---|---|
 | **Cmax** | Maximum plasma concentration |
 | **Tmax** | Time to maximum plasma concentration |
-| **Ctrough** | Concentration immediately before the subsequent dose |
+| **Ctrough** | Concentration before the next dose |
 | **AUC** | Area under the curve |
-
----
-
-### Drug-level reference tables
-
-- **[Drug List 1 – Enzymes and Transporters](./Drug%20list%201%20-%20enzymes%2C%20transporters.xlsx)**  
-
-- **[Drug List 2 – Metabolites and Renal/Hepatic Elimination](./Drug%20list%202%20-%20metabolites%20and%20renal%20elimination.xlsx)**
 
 
 ---
