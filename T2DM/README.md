@@ -29,22 +29,17 @@ The models are organized by therapeutic class and are intended to support the re
 
 ## Repository Structure
 
-Each therapeutic-class directory contains drug-specific modeling resources derived from published pharmacokinetic literature.
+Each therapeutic-class directory contains drug-specific models derived from peer-reviewed PK literature and FDA regulatory documents such as clinical pharmacology reviews.
 
-Depending on the availability of published models and source data, individual drug file may contain:
+Individual drug model may contain:
 
-- Published PopPK, PK/PD, or related pharmacometric model implementations
-- Model parameterization and covariate information
-- Simulation scripts
-- Typical population simulations
-- Variability simulations
-- Exposure metrics such as:
-  - Cmax
-  - Tmax
-  - Ctrough
+- Published PopPK, PK/PD, or related model 
+- Simulation scripts/codes
+- Population PK parameters
+- IIV
+- Covariates
+- Exposure metrics such as Cmax, Tmax, Ctrough
 - Supporting references and model documentation
-
-The structure of individual drug folders may vary depending on the complexity of the published model and the availability of sufficient information for model reconstruction.
 
 ---
 
