@@ -1,6 +1,6 @@
 # Type 2 Diabetes Mellitus (T2DM)
 
-This page directs PK modeling resources for medications commonly used in the management of type 2 diabetes mellitus (T2DM). The models are grouped by therapeutic class and reconstructed according to the published PK models.
+This page directs PK modeling resources for medications commonly used in the management of type 2 diabetes mellitus (T2DM). The models in this database are grouped by therapeutic class and reconstructed according to the published PK models.
 
 > **Repository:** PopulationPKModels-datahub  
 > **Therapeutic area:** Type 2 Diabetes Mellitus  
@@ -27,8 +27,6 @@ This page directs PK modeling resources for medications commonly used in the man
 
 ## Repository Structure
 
-Each therapeutic-class directory contains drug-specific models derived from peer-reviewed PK literature and FDA regulatory documents such as clinical pharmacology reviews.
-
 Individual drug model may contain:
 
 - Published PopPK, PK/PD, or related model 
@@ -36,27 +34,24 @@ Individual drug model may contain:
 - Population PK parameters
 - IIV
 - Covariates
-- Exposure metrics such as Cmax, Tmax, Ctrough
-- Supporting references and model documentation
+- Metrics such as Cmax, Tmax, Ctrough
 
 ---
 
 ## Model Reconstruction
 
-Published models are evaluated before reconstruction to determine whether sufficient information is available to reproduce the reported pharmacokinetic behavior.
+Published models were evaluated to determine whether sufficient information was sufficient for model reconstruction.
 
 Model reconstruction may include:
 
-1. Structural pharmacokinetic model
-2. Fixed-effect parameter estimates
-3. Interindividual variability
-4. Residual unexplained variability, when applicable
-5. Covariate relationships
-6. Dosing regimen
-7. Population characteristics
-8. Formulation and route of administration
-
-When multiple models are available for the same drug, models may be compared according to their clinical relevance, population characteristics, model completeness, and suitability for simulation.
+1. Structural PK model
+2. PK(/PD) parameter estimates
+3. IIV
+4. RSV
+5. Covariate
+6. Dosing regimen (for simulation, according to disease types)
+7. Patient population baseline characteristics
+8. Drug formulation and route of administration
 
 ---
 
