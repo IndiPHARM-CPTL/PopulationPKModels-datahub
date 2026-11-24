@@ -25,19 +25,6 @@ This page directs PK modeling resources for medications commonly used in the man
 
 ---
 
-## Repository Structure
-
-Individual drug model may contain:
-
-- Published PopPK, PK/PD, or related model 
-- Simulation scripts/codes
-- Population PK parameters
-- IIV
-- Covariates
-- Metrics such as Cmax, Tmax, Ctrough
-
----
-
 ## Model Reconstruction
 
 Published models were evaluated to determine whether sufficient information was sufficient for model reconstruction.
@@ -57,21 +44,16 @@ Model reconstruction may include:
 
 ## Simulation Framework
 
-Models in this repository are primarily implemented using **R** and **mrgsolve**.
-
-Where appropriate, simulations may include:
-
-### Typical-subject simulation
-Simulation using the reported typical population parameter estimates.
+### Simulation with population mean 
+Using the reported population PK parameter estimates.
 
 ### Population simulation
-Virtual-population simulations incorporating reported interindividual variability.
+Virtual population simulations with reported IIV.
 
 ### Multiple-dose simulation
-Repeated-dose simulation to characterize accumulation and steady-state exposure.
+Multiple ascending dose simulation to characterize accumulation and steady-state exposure.
 
-### Exposure summaries
-PopPK models could derive the following common PK endpoints include:
+### Simulation results
 
 | Metric | Description |
 |---|---|
@@ -81,10 +63,6 @@ PopPK models could derive the following common PK endpoints include:
 | **AUC** | Area under the curve |
 
 ---
-
-## Supporting Drug Information
-
-Additional files summarize drug-specific characteristics.
 
 ### Drug-level reference tables
 
@@ -99,12 +77,11 @@ Additional files summarize drug-specific characteristics.
 
 This repository is designed as a **research and pharmacometric resource** for:
 
-- Population pharmacokinetic model reconstruction
-- Model comparison
-- Pharmacokinetic modeling and simulation
-- Drug Exposure assessment
-- Model-informed precision dosing related research
-- Therapeutic drug monitoring and PK/PD related research
+- Population PK model reconstruction
+- Model comparison for selected drugs such as metformin
+- PK modeling and simulation
+- MIPD (Model-informed precision dosing)-related research
+- TDM (therapeutic drug monitoring) research and future patient care
 
 The repository is intended for **research and educational purposes** and should not be used as prescribing information or independent clinical decision-making.
 
@@ -112,21 +89,13 @@ The repository is intended for **research and educational purposes** and should 
 
 ## Contributing
 
-Contributions and comments that could improve our models are welcome.
-
-Examples include:
-
-- Additional published PopPK models
-- Corrections to reconstructed model parameters
-- Additional validation datasets
-- Improved model documentation
-- Updated pharmacokinetic literature
+We welcome contributions, comments, and constructive critiques that could help improve our database.
 
 ---
 
 ## Citation
 
-If you use models or data from this repository in academic work, please cite the original pharmacokinetic publication associated with each model in addition to citing this repository where appropriate.
+If you use models or data from this repository in academic work, please cite the original publication in addition to citing this repository.
 
 ---
 
@@ -139,6 +108,7 @@ If you use models or data from this repository in academic work, please cite the
 **Serge Cremers**
 
 **Clinical Pharmacology and Toxicology Laboratory (CPTL@cumc.columbia.edu)**
+
 **Columbia University Irving Medical Center**  
 
 ---
