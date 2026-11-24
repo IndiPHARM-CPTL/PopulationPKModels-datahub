@@ -1,8 +1,6 @@
 # Type 2 Diabetes Mellitus (T2DM)
 
-This directory contains pharmacokinetic modeling resources for medications used in the management of **type 2 diabetes mellitus (T2DM)**.
-
-The models are organized by therapeutic class and are intended to support the reconstruction, simulation, comparison, and evaluation of published pharmacokinetic models across non-insulin antihyperglycemic therapies.
+This page directs PK modeling resources for medications commonly used in the management of type 2 diabetes mellitus (T2DM). The models are grouped by therapeutic class and reconstructed according to the published PK models.
 
 > **Repository:** PopulationPKModels-datahub  
 > **Therapeutic area:** Type 2 Diabetes Mellitus  
