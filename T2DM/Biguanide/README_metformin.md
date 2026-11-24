@@ -20,7 +20,6 @@ Metformin was a first-line antihyperglycemic drug for T2DM. It primarily reduces
 | **Charles et al.** | Late Pregnancy | [Charles](./Charles/) |
 | **Bardin et al.** | Patients with T2DM with and without obesity | [Bardin](./Bardin/) |
 | **Chae et al.** | Healthy subjects; PK/PD signal transduction model | [Chae](./Chae/) |
-| **Timmins et al.** | Metformin ER formulation | [Timmins](./Timmins/) |
 | **Sinnappah et al.** | Patients receiving intermittent hemodialysis | [Sinnappah](./Sinnappah/) |
 | **Yoon et al.** | Healthy volunteers (pharmacogenomic) | [Yoon](./Yoon/) |
 | **Chitnis et al.** | Healthy volunteers | [Chitnis](./Chitnis/) |
