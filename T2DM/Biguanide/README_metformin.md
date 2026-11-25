@@ -2,7 +2,7 @@
 
 **Drug class:** Biguanide
 
-**Model:** 11 published PopPK/PD models available
+**Model:** 12 published PopPK/PD models available in this database
 
 ## **Introduction**
 
