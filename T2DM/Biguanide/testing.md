@@ -6,22 +6,18 @@
 
 **Patient population:** Patients with type 2 diabetes mellitus (T2DM)
 
-**Model implementation:** R (mrgsolve)
+**Model implementation:** R (mrgsolve), NONMEM
 
 ## **Reference**
 
 Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE.
 Population exposure-response modeling of metformin in patients with
 type 2 diabetes mellitus. J Clin Pharmacol. 2008;48(6):696–707.
-
 DOI: [10.1177/0091270008316884](https://doi.org/10.1177/0091270008316884)
 
 ## **Structural Model**
 
-- One-compartment model
-- First-order absorption
-- First-order elimination
-- Oral administration
+- One-compartment model; First-order absorption, first-order elimination
 
 ## **Population PK Parameters**
 
@@ -54,12 +50,6 @@ $$
 | CL/F | 0.05 |
 | V/F | 0.17 |
 
-Interindividual variability is implemented using exponential random effects.
-
-## **Residual Unexplained Variability (RUV)**
-
-Combined additive and proportional residual error model.
-
 ## **Model Implementation**
 
 The published PK model was implemented in R using the mrgsolve
@@ -72,11 +62,10 @@ The simulated plasma concentrations are expressed in ng/mL.
 ## **R Code**
 
 ```r
-# Insert the model implementation here
+
+
 ```
 
 ## **Model Scope**
 
-This implementation describes the pharmacokinetic component of the
-original publication. The pharmacodynamic exposure-response component
-is not included in the current implementation.
+This model only describes the PK portion of the original publication. The PK/PD part is attached below.
