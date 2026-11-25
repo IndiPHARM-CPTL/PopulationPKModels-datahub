@@ -50,14 +50,9 @@ $$
 | CL/F | 0.05 |
 | V/F | 0.17 |
 
-## **Model Implementation**
+## **Model Reconstruction and Simulation**
 
-The published PK model was implemented in R using the mrgsolve
-package to support single-dose and multiple-dose simulations,
-population concentration-time profiles, and model-informed
-interpretation of systemic metformin exposure.
-
-The simulated plasma concentrations are expressed in ng/mL.
+The Hong PK model was reproduced based on the reported PK parameters in R with the mrgsolve package for single-dose and multiple-dose simulations, population concentration-time profiles, and model-informed derivation of systemic metformin exposure.
 
 ## **R Code**
 
