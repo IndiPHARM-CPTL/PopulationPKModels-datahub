@@ -24,7 +24,8 @@ If you use this model or its simulation outputs in academic or research work, pl
 ### **IndiPHARM Model Repository**
 
 ```
-Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026). *PopulationPKModels-datahub (IndiPHARM)* (Version 0.1.0) [Computer software].
+Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026).
+*PopulationPKModels-datahub (IndiPHARM)* (Version 0.1.0) [Computer software].
 ```
 
 [GitHub Repository](https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub)
