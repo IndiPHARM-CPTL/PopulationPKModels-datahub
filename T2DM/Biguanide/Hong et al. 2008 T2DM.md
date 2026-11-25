@@ -108,6 +108,6 @@ KAi CLi Vi CLCR REF_CLCR CP_ngmL
 mod <- mcode("metformin_pk", metformin_pk)
 ```
 
-## **Model Scope**
+## **Note**
 
 This model only describes the PK portion of the original publication. The PK/PD part is attached below.
