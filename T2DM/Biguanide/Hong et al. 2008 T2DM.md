@@ -34,6 +34,21 @@ Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026).
 
 - One-compartment model; First-order absorption, first-order elimination
 
+## **Model Equations**
+
+$$
+\frac{dA_{GUT}}{dt} = -K_a A_{GUT}
+$$
+
+$$
+\frac{dA_{CENT}}{dt} =
+K_a A_{GUT} - \frac{CL}{V}A_{CENT}
+$$
+
+$$
+C_p = \frac{A_{CENT}}{V}
+$$
+
 ## **Population PK Parameters**
 
 | Parameter | Description | Estimate | Unit |
