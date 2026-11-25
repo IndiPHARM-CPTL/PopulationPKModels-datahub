@@ -92,8 +92,8 @@ IWRES = IRES/W
 
 $THETA
 (0, 2.15)    ; KA (1/h)
-(0, 79.0)    ; CL/F (L/h)
-(0, 648)     ; V/F (L)
+(0, 79.1)    ; CL/F (L/h)
+(0, 643)     ; V/F (L)
 (0, 0.822)   ; POW effect of CLCR on CL
 
 $OMEGA
