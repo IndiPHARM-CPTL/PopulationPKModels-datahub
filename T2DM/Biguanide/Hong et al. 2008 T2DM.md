@@ -2,18 +2,33 @@
 
 **Drug class:** Biguanide
 
-**Model type:** Population pharmacokinetic (PopPK) model derived from PK/PD model 
+**Model type:** Population pharmacokinetic (PopPK) model reproduced from PK/PD model 
 
 **Patient population:** Patients with type 2 diabetes mellitus (T2DM)
 
 **Model implementation:** R (mrgsolve), NONMEM
 
-## **Reference**
+## **Original Publication**
 
+```
 Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE.
 Population exposure-response modeling of metformin in patients with
 type 2 diabetes mellitus. J Clin Pharmacol. 2008;48(6):696–707.
 DOI: [10.1177/0091270008316884](https://doi.org/10.1177/0091270008316884)
+```
+
+## **Citation**
+
+If you use this model or its simulation outputs in academic or research work, please cite both the original publication and the IndiPHARM model repository.
+
+### **IndiPHARM Model Repository**
+
+```
+Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026).
+*PopulationPKModels-datahub (IndiPHARM)* (Version 0.1.0) [Computer software].
+```
+
+[GitHub Repository](https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub)
 
 ## **Structural Model**
 
@@ -54,7 +69,66 @@ $$
 
 The Hong PK model was reproduced based on the reported PK parameters in R with the mrgsolve package for single-dose and multiple-dose simulations, population concentration-time profiles, and model-informed derivation of systemic metformin exposure.
 
-## **R(mrgsolve) Code**
+## **NONMEM Code**
+```NONMEM
+$PROBLEM METFORMIN PK MODEL
+Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE. J Clin Pharmacol. 2008;48(6):696-707.
+
+$INPUT ID TIME AMT DV EVID MDV CMT RATE CLCR
+
+$DATA metformin_nonmem.csv IGNORE=@
+
+$SUBROUTINES ADVAN2 TRANS2
+
+$PK
+TVKA   = THETA(1)
+TVCL   = THETA(2)
+TVV    = THETA(3)
+POW    = THETA(4)
+
+REFCLCR = 100
+
+KA = TVKA*EXP(ETA(1))
+CL = TVCL*(CLCR/REFCLCR)**POW*EXP(ETA(2))
+V  = TVV*EXP(ETA(3))
+
+; Scale central compartment to concentration in mg/L
+S2 = V
+
+$ERROR
+IPRED = F*1000
+
+Y = IPRED*(1 + EPS(2)) + EPS(1)
+
+IRES = DV - IPRED
+W = SQRT(SIGMA(1,1) + IPRED*IPRED*SIGMA(2,2))
+IF (W.EQ.0) W = 1
+IWRES = IRES/W
+
+$THETA
+(0, 2.15)    ; KA (1/h)
+(0, 79.1)    ; CL/F (L/h)
+(0, 643)     ; V/F (L)
+(0, 0.822)   ; POW effect of CLCR on CL
+
+$OMEGA
+0.29 ; ETA_KA
+0.052 ; ETA_CL
+0.167; ETA_V
+
+$SIGMA
+209          ; additive error variance
+6.12         ; proportional error variance
+
+$ESTIMATION METHOD=1 INTERACTION MAXEVAL=9999 PRINT=5 NOABORT
+$COVARIANCE
+
+$TABLE ID TIME AMT DV IPRED IRES IWRES CLCR KA CL V NOPRINT ONEHEADER FILE=metformin_tab.csv
+
+```
+
+
+## **R Code**
 
 ```r
 
@@ -110,4 +184,6 @@ mod <- mcode("metformin_pk", metformin_pk)
 
 ## **Note**
 
-This model only describes the PK portion of the original publication. The PK/PD part is attached below.
+This model only describes the PK portion of the original publication. The best-fit model was described as above, with  CL/F and V/F for metformin reported 79.1 L/h and 643 L, accordingly. The incorporation of CLCR into the base model explained part of the IIV of CL/F, with its value decreasing from 31.0% to 23.3%.
+
+The PK/PD part is attached below.
