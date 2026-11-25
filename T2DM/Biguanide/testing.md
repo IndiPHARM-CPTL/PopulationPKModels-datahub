@@ -54,6 +54,65 @@ $$
 
 The Hong PK model was reproduced based on the reported PK parameters in R with the mrgsolve package for single-dose and multiple-dose simulations, population concentration-time profiles, and model-informed derivation of systemic metformin exposure.
 
+## **NONMEM Code**
+```NONMEM
+$PROBLEM METFORMIN PK MODEL
+Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE. J Clin Pharmacol. 2008;48(6):696-707.
+
+$INPUT ID TIME AMT DV EVID MDV CMT RATE CLCR
+
+$DATA metformin_nonmem.csv IGNORE=@
+
+$SUBROUTINES ADVAN2 TRANS2
+
+$PK
+TVKA   = THETA(1)
+TVCL   = THETA(2)
+TVV    = THETA(3)
+POW    = THETA(4)
+
+REFCLCR = 100
+
+KA = TVKA*EXP(ETA(1))
+CL = TVCL*(CLCR/REFCLCR)**POW*EXP(ETA(2))
+V  = TVV*EXP(ETA(3))
+
+; Scale central compartment to concentration in mg/L
+S2 = V
+
+$ERROR
+IPRED = F*1000
+
+Y = IPRED*(1 + EPS(2)) + EPS(1)
+
+IRES = DV - IPRED
+W = SQRT(SIGMA(1,1) + IPRED*IPRED*SIGMA(2,2))
+IF (W.EQ.0) W = 1
+IWRES = IRES/W
+
+$THETA
+(0, 2.15)    ; KA (1/h)
+(0, 79.0)    ; CL/F (L/h)
+(0, 648)     ; V/F (L)
+(0, 0.822)   ; POW effect of CLCR on CL
+
+$OMEGA
+0.29 ; ETA_KA
+0.052 ; ETA_CL
+0.167; ETA_V
+
+$SIGMA
+209          ; additive error variance
+6.12         ; proportional error variance
+
+$ESTIMATION METHOD=1 INTERACTION MAXEVAL=9999 PRINT=5 NOABORT
+$COVARIANCE
+
+$TABLE ID TIME AMT DV IPRED IRES IWRES CLCR KA CL V NOPRINT ONEHEADER FILE=metformin_tab.csv
+
+```
+
+
 ## **R Code**
 
 ```r
