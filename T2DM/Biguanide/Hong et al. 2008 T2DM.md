@@ -54,7 +54,7 @@ $$
 
 The Hong PK model was reproduced based on the reported PK parameters in R with the mrgsolve package for single-dose and multiple-dose simulations, population concentration-time profiles, and model-informed derivation of systemic metformin exposure.
 
-## **R Code**
+## **R(mrgsolve) Code**
 
 ```r
 
