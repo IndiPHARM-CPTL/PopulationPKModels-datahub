@@ -184,6 +184,6 @@ mod <- mcode("metformin_pk", metformin_pk)
 
 ## **Note**
 
-This model only describes the PK portion of the original publication. The best-fit model was described as above, with  CL/F and V/F for metformin reported 79.1 L/h and 643 L, accordingly. The incorporation of CLCR into the base model explained part of the IIV of CL/F, with its value decreasing from 31.0% to 23.3%.
+This model only describes the PK portion of the original publication. The best-fit model was described as above, with  CL/F and V/F for metformin reported 79.1 L/h and 643 L, accordingly. The incorporation of CLCR into the base model explained part of the IIV of CL/F.
 
 The PK/PD part is attached below.
