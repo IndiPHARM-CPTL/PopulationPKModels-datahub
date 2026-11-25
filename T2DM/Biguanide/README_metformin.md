@@ -23,6 +23,8 @@ Metformin was a first-line antihyperglycemic drug for T2DM. It primarily reduces
 | **Sinnappah et al.** | Patients receiving intermittent hemodialysis | [Sinnappah](./Sinnappah/) |
 | **Yoon et al.** | Healthy volunteers (pharmacogenomic) | [Yoon](./Yoon/) |
 | **Chitnis et al.** | Healthy volunteers | [Chitnis](./Chitnis/) |
+| **Sam et al.** | SLC22A1 | [Sam](./Sam/) |
+| **Timmins et al.** | Timmins ER/XR | [Timmins](./Timmins/) |
 
 
 
