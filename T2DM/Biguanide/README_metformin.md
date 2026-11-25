@@ -23,7 +23,7 @@ Metformin was a first-line antihyperglycemic drug for T2DM. It primarily reduces
 | **Sinnappah et al. (2020)** | Patients receiving intermittent hemodialysis | [Sinnappah](./Sinnappah%20et%20al.%202020%20intermittent%20haemodialysis) |
 | **Yoon et al. (2013)** | Healthy volunteers (pharmacogenomics) | [Yoon](./Yoon%20et%20al.%202013%20OCT) |
 | **Chitnis et al. (2016)** | Healthy volunteers | [Chitnis](./Chitnis%20et%20al.%202016) |
-| **Timmins et al.** | Extended-release metformin formulation (ER/XR) | [Timmins](./Timmins%20et%20al.%20ER_XR%20formulation) |
+| **Timmins et al. (2005)** | Extended-release metformin formulation (ER/XR) | [Timmins](./Timmins%20et%20al.%20ER_XR%20formulation) |
 
 
 
