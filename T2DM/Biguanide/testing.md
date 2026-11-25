@@ -10,10 +10,10 @@
 
 ## **Original Publication**
 
-Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE.
+```Hong Y, Rohatagi S, Habtemariam B, Walker JR, Schwartz SL, Mager DE.
 Population exposure-response modeling of metformin in patients with
 type 2 diabetes mellitus. J Clin Pharmacol. 2008;48(6):696–707.
-DOI: [10.1177/0091270008316884](https://doi.org/10.1177/0091270008316884)
+DOI: [10.1177/0091270008316884](https://doi.org/10.1177/0091270008316884)```
 
 ## **Citation**
 
@@ -21,7 +21,7 @@ If you use this model or its simulation outputs in academic or research work, pl
 
 ### **IndiPHARM Model Repository**
 
-Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026). *PopulationPKModels-datahub (IndiPHARM)* (Version 0.1.0) [Computer software].
+```Xie, M. H., Lacroix, M., Rodda, R., Lyashchenko, A. K., & Cremers, S. (2026). *PopulationPKModels-datahub (IndiPHARM)* (Version 0.1.0) [Computer software].```
 
 [GitHub Repository](https://github.com/IndiPHARM-CPTL/PopulationPKModels-datahub)
 
