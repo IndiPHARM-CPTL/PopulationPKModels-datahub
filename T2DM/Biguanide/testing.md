@@ -2,7 +2,7 @@
 
 **Drug class:** Biguanide
 
-**Model type:** Population pharmacokinetic (PopPK) model
+**Model type:** Population pharmacokinetic (PopPK) model derived from PK/PD model 
 
 **Patient population:** Patients with type 2 diabetes mellitus (T2DM)
 
